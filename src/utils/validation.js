@@ -39,7 +39,7 @@ export function getTodayInputDate() {
 }
 
 export const startDateRules = {
-  required: 'Start date is required.',
+  // required: 'Start date is required.',
   validate: (value) =>
     !value ||
     value >= getTodayInputDate() ||

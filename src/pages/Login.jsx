@@ -44,9 +44,9 @@ function Login() {
   return (
     <div className="rounded-xl bg-white p-6 shadow-xl sm:p-8">
       <h2 className="text-xl font-bold text-primary">Administrator Login</h2>
-      <p className="mt-1 text-sm text-gray-600">
+      {/* <p className="mt-1 text-sm text-gray-600">
         Sign in to access the election management portal.
-      </p>
+      </p> */}
 
       <form className="mt-6 space-y-4" onSubmit={handleSubmit(onSubmit)} noValidate>
         <InputField
@@ -84,9 +84,9 @@ function Login() {
         </Button>
       </form>
 
-      <p className="mt-4 text-center text-xs text-gray-500">
+      {/* <p className="mt-4 text-center text-xs text-gray-500">
         Demo credentials: <strong>admin</strong> / <strong>admin123</strong>
-      </p>
+      </p> */}
 
       <div className="mt-6 border-t border-gray-200 pt-4 text-center">
         <p className="text-xs text-gray-500">Not an administrator?</p>

@@ -66,11 +66,11 @@ function Sidebar({ isOpen, onClose }) {
             ))}
           </ul>
 
-          <p className="mb-3 mt-6 px-3 text-xs font-semibold uppercase tracking-wide text-gray-400">
+          {/* <p className="mb-3 mt-6 px-3 text-xs font-semibold uppercase tracking-wide text-gray-400">
             Public Access
-          </p>
+          </p> */}
 
-          <ul className="space-y-1">
+          {/* <ul className="space-y-1">
             <li>
               <NavLink
                 to="/voter-login"
@@ -87,7 +87,7 @@ function Sidebar({ isOpen, onClose }) {
                 Voter Portal
               </NavLink>
             </li>
-          </ul>
+          </ul> */}
 
           <div className="mt-auto rounded-lg bg-surface p-4 text-xs text-gray-600">
             <p className="font-semibold text-primary">Secure Portal</p>

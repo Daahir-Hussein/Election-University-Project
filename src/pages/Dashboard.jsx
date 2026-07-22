@@ -114,10 +114,10 @@ function Dashboard() {
           <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
             <h3 className="font-semibold text-primary">Live Statistics</h3>
             <p className="mt-3 text-sm text-gray-600">
-              All counts above are loaded in real time from{' '}
-              <code className="rounded bg-gray-100 px-1 py-0.5 text-xs">
+              All counts above are loaded in real time 
+              {/* <code className="rounded bg-gray-100 px-1 py-0.5 text-xs">
                 GET /api/Dashboard
-              </code>
+              </code> */}
               .
             </p>
           </div>
