@@ -23,7 +23,7 @@ React frontend for the **National Election Management System** university final 
 ## Setup
 
 ```bash
-cd election-frontend
+
 npm install
 cp .env
 npm run dev
