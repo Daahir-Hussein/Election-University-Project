@@ -229,7 +229,7 @@ function VoterCandidates() {
                         <div className="shrink-0">
                           {candidate.photo ? (
                             <img
-                              src={`https://localhost:7202/uploads/candidates/${candidate.photo}`}
+                              src={`/uploads/candidates/${encodeURIComponent(candidate.photo)}`}
                               alt={candidate.candidateName}
                               className="h-20 w-20 rounded-xl border border-gray-200 bg-gray-100 object-cover shadow-sm"
                               onError={(event) => {
@@ -251,7 +251,7 @@ function VoterCandidates() {
                           <div className="mt-2 flex items-center gap-2">
                             {candidate.partyLogo ? (
                               <img
-                                src={`https://localhost:7202/uploads/parties/${candidate.partyLogo}`}
+                                src={`/uploads/parties/${encodeURIComponent(candidate.partyLogo)}`}
                                 alt={candidate.partyName || 'Party logo'}
                                 className="h-8 w-8 shrink-0 rounded-lg border border-gray-200 bg-white object-contain p-1"
                                 onError={(event) => {
